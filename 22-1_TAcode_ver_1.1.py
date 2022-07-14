@@ -280,7 +280,6 @@ def check_absent_chat() :
     #############################################################################################################################
 
     
-    #14:49:38 발신자 .김다은 수신자 모두에게:
     count_middle = 0
     flag = False
     while True :
@@ -370,10 +369,10 @@ def check_absent_chat() :
 checking_frame = LabelFrame(screen,text='기 능 선 택',labelanchor='n')
 checking_frame.pack()
 
-absent_only_check_btn = Button(checking_frame,text='출석만\n볼래요',width = 15,height = 2,command = check_absent)
+absent_only_check_btn = Button(checking_frame,text='출석만\n확인하기',width = 15,height = 2,command = check_absent)
 absent_only_check_btn.pack()
 
-absent_check_btn = Button(checking_frame,text='모두다\n볼래요',width = 15,height = 2,command = check_absent_chat)
+absent_check_btn = Button(checking_frame,text='모두 다\n확인하기',width = 15,height = 2,command = check_absent_chat)
 absent_check_btn.pack()
 
 
